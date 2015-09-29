@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Android Snippets</ShortName>
+    <LongName>Android Snippets Search</LongName>
+    <Description>Search through code snippets for android</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <Developer>Elton Kola</Developer>
+    <Contact>eltonkola@gmail.com<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></Contact>
+    <Description>Search for android snippets, easy and fast from any place!</Description>
+    <Tags>android snippets, cide search</Tags>
+    <Attribution>Search for Android Snippets http://eltonkola.com/androidsnippets</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Query role="example" searchTerms="Dialog"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">http://eltonkola.com/androidsnippets/openSearch/favicon.ico</Image>
+    <Image height="128" width="128" type="image/png">http://eltonkola.com/androidsnippets/openSearch/128.png</Image>
+    <Image height="64" width="64" type="image/png">http://eltonkola.com/androidsnippets/openSearch/64.png</Image>
+    <Image height="32" width="32" type="image/png">http://eltonkola.com/androidsnippets/openSearch/32.png</Image>
+    <Url type="text/html" template="http://eltonkola.com/androidsnippets/?s={searchTerms}"/>
+
+    <Url type="application/x-suggestions+json" template="http://eltonkola.com/androidsnippets/openSearch/oos.php?s={searchTerms}"/>
+
+</OpenSearchDescription>
